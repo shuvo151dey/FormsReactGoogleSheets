@@ -53,7 +53,7 @@ app.post('/form', (req,res) => {
         }
     });
     
-    return res.redirect('http://localhost:3000/');
+    return res.redirect('https://forms-react-google-sheets.shuvo151dey.now.sh/');
     
 });
 app.listen(4000, () => {console.log('Server running at port 4000');});
